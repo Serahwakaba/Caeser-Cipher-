@@ -8,7 +8,7 @@ public class App {
 
 
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-    boolean programRunning = true;
+//    boolean programRunning = true;
 
     CaesarEncoder encoder = new CaesarEncoder("", 0);
     CaesarDecoder decoder = new CaesarDecoder("", 0);
