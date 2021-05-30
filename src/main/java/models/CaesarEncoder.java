@@ -9,12 +9,12 @@ public class CaesarEncoder {
     private int shiftKey;
     private final List<String> userOutput = new ArrayList<String>();
 
-    // The constructor below is to initialize the class and its properties
-//    public CaesarEncoder(String userInput, int shiftKey) {
-//        this.userInput = userInput;
-//        this.shiftKey = shiftKey;
-//    }
-//
+     //The constructor below is to initialize the class and its properties
+    public CaesarEncoder(String userInput, int shiftKey) {
+        this.userInput = userInput;
+        this.shiftKey = shiftKey;
+    }
+
 //    public String encryptUserText() {
 //        for (int i = 0; i < userInput.length(); i++) {
 //            if (Character.isUpperCase(userInput.charAt(i))) {
