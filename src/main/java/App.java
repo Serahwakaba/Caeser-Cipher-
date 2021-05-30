@@ -8,8 +8,8 @@ import java.io.InputStreamReader;
 public class App {
     public static void main(String[] args) throws IOException {
 
-//        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-//        boolean programRunning = true;
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        boolean programRunning = true;
 
 
         CaesarEncoder encoder = new CaesarEncoder("", 0);
