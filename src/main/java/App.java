@@ -14,7 +14,7 @@ public class App {
 
         CaesarEncoder encoder = new CaesarEncoder("", 0);
         CaesarDecoder decoder = new CaesarDecoder("", 0);
-//
+
         while (programRunning) {
             System.out.println("I am a Caesar Cipher program. Choose one of the following options:");
             System.out.println("1. Encrypt");
