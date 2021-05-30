@@ -1,15 +1,15 @@
-//package models;
-//
-//import java.util.ArrayList;
-//import java.util.List;
-//
-//public class CaesarDecoder {
-//    private CaesarEncoder EncoderDetails = new CaesarEncoder("", 0);
-//
-//    private String userText;
-//    private int decodeKey;
-//    private List<String> decodedOutput = new ArrayList<String>();
-//
+package models;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CaesarDecoder {
+    private CaesarEncoder EncoderDetails = new CaesarEncoder("", 0);
+
+    private String userText;
+    private int decodeKey;
+    private List<String> decodedOutput = new ArrayList<String>();
+
 //
 //    public CaesarDecoder(String userText, int decodeKey) {
 //        this.userText = userText;

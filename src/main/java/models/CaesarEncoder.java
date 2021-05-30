@@ -34,25 +34,25 @@ public class CaesarEncoder {
         }
         return String.join("", userOutput);
     }
-////
-//    // The two functions below are getter functions used to send/return this class' properties to
-//    // other external classes or functions that might need them. Hence, the return...
-//    public String getInputString() {
-//        return this.userInput;
-//    }
-//
-//    public int getShiftKey() {
-//        return this.shiftKey;
-//    }
-//
-//    // The two functions below are setter functions used to set user input from App.java as
-//    // properties of an instance of this class when the program is running. Use these setter
-//    // functions instead of the constructor to set the properties
-//    public void setUserText(String userInput) {
-//        this.userInput = userInput;
-//    }
-//
-//    public void setUserKey(int userKey) {
-//        this.shiftKey = userKey;
-//    }
-//}
+
+////    // The two functions below are getter functions used to send/return this class' properties to
+////    // other external classes or functions that might need them. Hence, the return...
+ public String getInputString() {
+      return this.userInput;
+   }
+
+  public int getShiftKey() {
+      return this.shiftKey;
+    }
+
+    // The two functions below are setter functions used to set user input from App.java as
+    // properties of an instance of this class when the program is running. Use these setter
+    // functions instead of the constructor to set the properties
+    public void setUserText(String userInput) {
+        this.userInput = userInput;
+    }
+
+    public void setUserKey(int userKey) {
+        this.shiftKey = userKey;
+    }
+}
