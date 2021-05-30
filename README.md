@@ -8,6 +8,7 @@ Serah Wakaba
 You need to have git installed
 You can install it with the following command in your terminal
 `$ sudo apt install git-all`
+
 You need to have INTELLIJ installed to access the project
 ### Setup
 To access this project on your local files, you can clone it using these steps
