@@ -5,15 +5,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//public class App {
-//    public static void main(String[] args) throws IOException {
-//
+public class App {
+    public static void main(String[] args) throws IOException {
+
 //        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 //        boolean programRunning = true;
-//
-//
-//        CaesarEncoder encoder = new CaesarEncoder("", 0);
-//        CaesarDecoder decoder = new CaesarDecoder("", 0);
+
+
+        CaesarEncoder encoder = new CaesarEncoder("", 0);
+        CaesarDecoder decoder = new CaesarDecoder("", 0);
 //
 //        while (programRunning) {
 //            System.out.println("I am a Caesar Cipher program. Choose one of the following options:");
