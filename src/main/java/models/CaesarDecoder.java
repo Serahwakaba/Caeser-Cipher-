@@ -36,25 +36,25 @@ public class CaesarDecoder {
         return String.join("", decodedOutput);
     }
 
-//    // Getter methods
-//    public String getUserText() {
-//        this.userText = EncoderDetails.getInputString();
-//        return this.userText;
-//    }
-//
-//    public int getUserKey() {
-//        this.decodeKey = EncoderDetails.getShiftKey();
-//        return this.decodeKey;
-//    }
-//
-//    // The two functions below are setter functions used to set user input from App.java as
-//    // properties of an instance of this class when the program is running. Use these setter
-//    // functions instead of the constructor to set the properties
-//    public String setUserText(String userInput) {
-//        return this.userText = userInput;
-//    }
-//
-//    public int setUserKey(int userKey) {
-//        return this.decodeKey = userKey;
-//    }
-//}
+    // Getter methods
+    public String getUserText() {
+        this.userText = EncoderDetails.getInputString();
+        return this.userText;
+    }
+
+    public int getUserKey() {
+        this.decodeKey = EncoderDetails.getShiftKey();
+        return this.decodeKey;
+    }
+
+    // The two functions below are setter functions used to set user input from App.java as
+    // properties of an instance of this class when the program is running. Use these setter
+    // functions instead of the constructor to set the properties
+    public String setUserText(String userInput) {
+        return this.userText = userInput;
+    }
+
+    public int setUserKey(int userKey) {
+        return this.decodeKey = userKey;
+    }
+}
