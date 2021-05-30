@@ -15,11 +15,11 @@ public class App {
         CaesarEncoder encoder = new CaesarEncoder("", 0);
         CaesarDecoder decoder = new CaesarDecoder("", 0);
 //
-//        while (programRunning) {
-//            System.out.println("I am a Caesar Cipher program. Choose one of the following options:");
-//            System.out.println("1. Encrypt");
-//            System.out.println("2. Decrypt");
-//            System.out.println("3. Exit");
+        while (programRunning) {
+            System.out.println("I am a Caesar Cipher program. Choose one of the following options:");
+            System.out.println("1. Encrypt");
+            System.out.println("2. Decrypt");
+            System.out.println("3. Exit");
 //            try {
 //                String choice = bufferedReader.readLine();
 //                if(choice.equals("1")) {
